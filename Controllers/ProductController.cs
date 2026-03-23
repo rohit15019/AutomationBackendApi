@@ -16,7 +16,7 @@ namespace AutomationBackend.Controllers
 
 
 
-
+  
             return Ok(products);
         }
     }
