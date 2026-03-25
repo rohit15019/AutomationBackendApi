@@ -7,11 +7,14 @@ namespace AutomationBackend.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+
         [HttpGet]
         public IActionResult GetProducts()
         {
             var products = new List<string> { "Product 1", "Product 2", "Product 3" };
             return Ok(products);
+            // In a real application, you would typically retrieve products from a database or another data source.
         }
+
     }
 }
