@@ -7,7 +7,7 @@ namespace AutomationBackend.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-<<<<<<< Updated upstream
+
 
         [HttpGet]
         public IActionResult GetProducts()
@@ -17,8 +17,7 @@ namespace AutomationBackend.Controllers
             // In a real application, you would typically retrieve products from a database or another data source.
         }
 
-=======
-        
->>>>>>> Stashed changes
+
     }
+    //hello
 }
